@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "run seed"
+    "seed": "node seeds/index.js"
   },
   "author": "ntjohns1",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^9.0.1",
     "express": "^4.17.1",
-    "mysql2": "^2.2.5"
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
   }
 }
